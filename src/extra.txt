@@ -1,0 +1,27 @@
+<div class="education-skill">
+                <div class="row">
+                    <div class="col-9 education">
+                        <h3>Education</h3>
+                        <h5>College, City, State</h5>
+                        <h6>Degree Name</h6>
+                        <small id="degree-date">MM/YYYY - MM/YYYY</small>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores velit.<strong>GPA</strong></p>
+                        
+                        <h5>College, City, State</h5>    
+                        <h6>Degree Name</h6>
+                        <small id="degree-date">MM/YYYY - MM/YYYY</small>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo vero. <strong>GPA</strong></p>
+                        <br>
+                    </div>
+                    <div class="col-3 skill">
+                        <h3>Skill</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>PostgreSQL</li>
+                            <li>C/C++</li>
+                            <li>Compitative Coding</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
