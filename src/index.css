@@ -78,3 +78,69 @@
     height: 12rem;
     border-radius: 50%;
 }
+
+/* SKILLS - COURSEWORK */
+.main-content .skill-coursework h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: large;
+}
+
+.main-content .skill-coursework .row .skill > div{
+    flex:1;
+    border-right: 1px solid grey;
+    
+}
+
+.main-content .skill-coursework .skill .sk {
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-content .skill-coursework .skill img {
+    width: 80px;
+    height: 80px;
+}
+
+.main-content .skill-coursework .course img {
+    width: 80px;
+    height: 200px;
+}
+
+/* CERTIFICATES */
+.container {
+    background-color: #EEEDDE;
+    margin-bottom: 5%;
+}
+
+.container .certificates {
+    padding-left:14rem;
+    padding-right: 14rem;
+}
+
+.container .certificates h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: large;
+    padding-top: 8px;
+}
+
+.container .certificates h4 small a {
+    font-family:  'Work Sans', sans-serif;
+    color: #573391;
+    float: right;
+    font-weight: 1000;
+    font-size: small;
+    text-decoration: none;
+}
+
+.container .certificates h4 small a:hover {
+    color:orangered;
+}
+
+.container .certificates .corousel .corousel-inner .corousel-item {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
