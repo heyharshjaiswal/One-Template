@@ -173,3 +173,50 @@
 .crd-certificates .crd-certi-body p a:hover {
     color: #5463FF;
 }
+
+/* PROJECTS */
+.main-content .projects {
+    margin-top: 1rem;
+}
+
+.main-content .projects .card-body h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: large;
+}
+
+.main-content .projects .card-body h4 strong small a {
+    font-family: 'Work Sans', sans-serif;
+    float: right;
+    font-size: medium;
+    color: #524A4E;
+    text-decoration: none;
+}
+
+.main-content .projects .card-body h4 strong small a:hover {
+    color:#FF5C8D;
+}
+
+.main-content .projects .card-body .project-details {
+    margin-top: 1rem;
+}
+
+.main-content .projects .card-body .project-details h5 {
+    font-size: large;
+}
+
+#see-project {
+    float: right;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 4px;
+    padding: 2px;
+    padding-left:1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+}
+
+#see-project:hover {
+    border: 2px solid black;
+    background-color: #CCD1EF;
+}
