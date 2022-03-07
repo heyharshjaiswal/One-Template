@@ -111,9 +111,16 @@
     border-radius: 50%;
 }
 
-.main-content .skill-coursework .course img {
-    width: 80px;
-    height: 200px;
+.main-content .skill-coursework .course .card {
+    width: 250px;
+    height: 250px;
+    border:none;
+}
+
+.main-content .skill-coursework .course .card .custom li::marker {
+    font-family: 'Raleway', sans-serif;
+    color: #2C272E;
+	font-size: 150%;
 }
 
 /* CERTIFICATES */
@@ -280,3 +287,28 @@
     font-size: medium;
     color: grey;
 }
+
+/* FOOTER */
+.footerCol {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .socialCol li {
+    display: inline-block;
+  }
+  .socialCol li + li {
+    padding-left: 35px;
+  }
+  .socialCol img {
+    max-width: 30px;
+    max-height: 30px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .copyrightCol {
+      padding: 20px 0 0;
+    font-size: 14px;
+  }
+  .copyrightCol p {
+      margin: 0;
+  }
