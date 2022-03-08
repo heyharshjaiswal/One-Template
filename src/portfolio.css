@@ -16,6 +16,7 @@ body {
 }
 
 .container .cards {
+    border-radius: 2rem;
     position: relative;
     width: 300px;
     height: 400px;
@@ -38,17 +39,20 @@ body {
 }
 .container .cards:nth-child(1),
 .container .cards:nth-child(1) .overlay {
-    background: linear-gradient(45deg, #3503ad, #f7308c);
+    background: rgb(36,0,0);
+    background: linear-gradient(45deg, rgba(36,0,0,1) 0%, rgba(121,97,9,1) 46%, rgba(255,81,0,1) 100%);
 }
 
 .container .cards:nth-child(2),
 .container .cards:nth-child(2) .overlay {
-    background: linear-gradient(45deg, #ccff00, #09afff);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
 .container .cards:nth-child(3),
 .container .cards:nth-child(3) .overlay {
-    background: linear-gradient(45deg, #e91e63, #ffeb3b);
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .container .cards .imgBx {
@@ -140,3 +144,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+.footerCol {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .socialCol li {
+    display: inline-block;
+  }
+  .socialCol li + li {
+    padding-left: 35px;
+  }
+  .socialCol img {
+    max-width: 30px;
+    max-height: 30px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .copyrightCol {
+      padding: 20px 0 0;
+    font-size: 14px;
+  }
+  .copyrightCol p {
+      margin: 0;
+  }
